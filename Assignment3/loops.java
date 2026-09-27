@@ -1,0 +1,31 @@
+
+/*
+ i took my code problem 5 in the debug (which is where i
+ remembered how to use the internet and remember how to 
+ index characters)
+
+ from there, i removed the variable and addition that added each
+ character to the previous to make the word in reverse. this way 
+ it simplys prints the indexed position from the user's word until
+ the loop's increment matches the inputed word's length.
+
+ this was simplier that i was expected as this was something i know
+ was feasible via coding but simply forgot any and all syntax T-T
+- ADJ
+*/
+
+import java.util.Scanner;
+
+public class loops {
+public static void main(String[] args) {
+Scanner ask = new Scanner(System.in);
+
+String word = ask.nextLine();
+        System.out.println("You wrote: " + word);
+
+        for (int i = 0; i < word.length(); i++){
+            System.out.println(word.charAt(i));
+        }
+    }
+}
+
