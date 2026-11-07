@@ -24,7 +24,8 @@ Mort.attack();
 }
 //1. i love and appreciate the fantasy vibes!
 //2. hot damn this was easier than i was expecting it to be. 
-// seeing it in a more specific context helped me grasp the usage of inheritance and how it works
+// seeing it in a more specific context helped me grasp the usage of inheritance and how it works!
+// oh and i realized capitalization for files is a pain T-T
 
 //note for self: 
 // would be cool to receive user input and have it return a specific function from a class (i.e attack, defend, item)
