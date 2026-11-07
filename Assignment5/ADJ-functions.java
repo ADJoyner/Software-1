@@ -4,7 +4,7 @@ public class unique_function {
 public static void main(String[] args) {
 Scanner GT = new Scanner(System.in); //naming scanner 'Q" like quiz cuz it'll be easy for me to remember/type
 
-System.out.println("What is your gamer tag/IGN (in-game username)?");
+System.out.println("What is your IGN (in-game username)?");
 String IGN = GT.nextLine();
 
 System.out.println("Enter the 4 digits of your tag");
