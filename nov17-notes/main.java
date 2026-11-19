@@ -9,11 +9,17 @@ public class main {
         String name = "";
 
         try{
-           Scanner input = new Scanner(inputFile); 
+           PrintWriter write = new PrintWriter(new FileWriter("text.txt", true));
+            writer.write("Aiden Joyner");
+            writer.close;
+            
+            /*
+            Scanner input = new Scanner(inputFile); 
             while(input.hasNext()){
                 line = input.nextLine();
                 
                //System.out.println(line);
+                */
             }
        
         } catch (FileNotFoundException e) {
